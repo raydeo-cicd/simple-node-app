@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongo-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mongo
+  template:
+    metadata:
+      labels:
+        app: mongo
+    spec:
+      imagePullSecrets:
+              - name : "dockerhub-creds"
+      containers:
+      - name: mongo
+        image: mongo
+        ports:
+        - containerPort: 80

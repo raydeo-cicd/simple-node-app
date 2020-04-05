@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+
+  labels:
+    run: simple-connect-mongo-app-svc
+  name: simple-connect-mongo-app-svc
+
+spec:
+  ports:
+  - port: 8888
+    targetPort: 8888
+    nodePort: 31704
+  type: NodePort  
+  selector:
+    app: node-app
+
+

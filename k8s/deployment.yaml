@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-connect-mongo-app
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: simple-connect-mongo-app
+  template:
+    metadata:
+      labels:
+        app: simple-connect-mongo-app
+    spec:
+      imagePullSecrets:
+              - name : "dockerhub-creds"
+      containers:
+      - name: simple-connect-mongo-app
+        image: raydeo/simple-connect-mongo-app:latest
+        ports:
+        - containerPort: 80

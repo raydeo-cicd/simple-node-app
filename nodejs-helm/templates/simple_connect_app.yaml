@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.nodeDeploymentName}}
+  labels:
+    app: nginx
+spec:
+  replicas: {{.Values.replicaCount}}
+  selector:
+    matchLabels:
+      app: simple-connect-mongo-app
+  template:
+    metadata:
+      labels:
+        app: simple-connect-mongo-app
+    spec:
+      imagePullSecrets:
+              - name : {{ .Values.dockerSecretName}}
+      containers:
+      - name: simple-connect-mongo-app
+        image: {{ .Values.nodeImage}}
+        envFrom:
+         - configMapRef:
+             name: mongo-config
+        ports:
+        - containerPort: 80
+
