@@ -17,7 +17,7 @@ function timer() {
     BlogPost.create(
         {
             title: 'with process.env.MONGO_URL',
-            body: 'random body text'
+            body: 'this is updated text to test blue ocean'
 
             // callback on the mongoose.create - nothing fancy here
         }, (error, blogpost) => {
