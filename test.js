@@ -10,14 +10,14 @@ const mongourl = require('./env/mongourl');
 // mongoose.connect('mongodb://localhost/my_database', { useNewUrlParser: true,  useUnifiedTopology: true  });
 mongoose.connect(mongourl, { useNewUrlParser: true,  useUnifiedTopology: true  });
 
-var timedPost = setInterval(timer, 5000);
+var timedPost = setInterval(timer, 10000);
 
 function timer() {
 
     BlogPost.create(
         {
             title: 'with process.env.MONGO_URL',
-            body: 'this is a very new bank holiday message'
+            body: 'this is a very new bank holiday message - started with yaml'
 
             // callback on the mongoose.create - nothing fancy here
         }, (error, blogpost) => {
