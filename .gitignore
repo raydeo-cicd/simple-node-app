@@ -1,3 +1,4 @@
 db
 mongo_database
 node_modules
+.idea
