@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2c5014a-e4b1-45e1-aac6-a5f571092c31" name="Default Changelist" comment="update mongo create post message">
+    <list default="true" id="b2c5014a-e4b1-45e1-aac6-a5f571092c31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
@@ -49,7 +49,8 @@
       <workItem from="1585989868639" duration="585000" />
       <workItem from="1586171043433" duration="240000" />
       <workItem from="1586171296310" duration="3944000" />
-      <workItem from="1586772664384" duration="530000" />
+      <workItem from="1586772664384" duration="2528000" />
+      <workItem from="1587124137113" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="added .gitignore to test build also to exclude folders">
       <created>1586194508647</created>
@@ -72,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586772921772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update mongo create post message also change setInterval to 10secs">
+      <created>1586774045900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586774045900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,19 +90,22 @@
     <MESSAGE value="added .gitignore to test build also to exclude folders" />
     <MESSAGE value="added new body of mongo create blog" />
     <MESSAGE value="reduced replicas to = 1 and added gitignore for .idea folder also update mongo create post message" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduced replicas to = 1 and added gitignore for .idea folder also update mongo create post message" />
+    <MESSAGE value="update mongo create post message" />
+    <MESSAGE value="update mongo create post message also change setInterval to 10secs" />
+    <option name="LAST_COMMIT_MESSAGE" value="update mongo create post message also change setInterval to 10secs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="264" key="CommitChangelistDialog2" timestamp="1586773967428">
+    <state x="872" y="264" key="CommitChangelistDialog2" timestamp="1586774041504">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="192" y="56" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1586339779154" />
-    <state x="872" y="264" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1586773967428" />
-    <state x="518" y="277" key="Vcs.Push.Dialog.v2" timestamp="1586772925167">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="872" y="264" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1586774041504" />
+    <state x="518" y="296" key="Vcs.Push.Dialog.v2" timestamp="1586774074141">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="340" y="202" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1586339794787" />
     <state x="518" y="277" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1586772925167" />
+    <state x="518" y="296" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1586774074141" />
     <state x="905" y="591" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586773906174">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

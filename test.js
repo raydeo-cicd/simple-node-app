@@ -17,7 +17,7 @@ function timer() {
     BlogPost.create(
         {
             title: 'with process.env.MONGO_URL',
-            body: 'this is a very new bank holiday message - started with yaml'
+            body: 'test push friday 17th'
 
             // callback on the mongoose.create - nothing fancy here
         }, (error, blogpost) => {
